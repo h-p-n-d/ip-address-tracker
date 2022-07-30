@@ -88,7 +88,6 @@ body::before {
 
 .data__content__item {
   width: 25%;
-  height: 100%;
   box-sizing: border-box;
   padding: 40px;
   p {
@@ -97,6 +96,7 @@ body::before {
     color: $darkgray;
     letter-spacing: 2px;
   }
+  word-wrap: break-word;
 }
 
 .data__content__line {
@@ -124,3 +124,5 @@ footer {
   position: absolute;
   bottom: 0;
 }
+
+@import "./_mobile";
